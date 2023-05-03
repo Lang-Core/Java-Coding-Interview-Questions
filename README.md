@@ -7,3 +7,4 @@
 5. Permutations of string
 6. Find vowels in the string
 7. Find smallest and largest element in array
+8. Separate ood and even numbers from an array
