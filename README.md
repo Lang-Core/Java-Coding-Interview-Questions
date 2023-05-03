@@ -6,3 +6,4 @@
 4. Find duplicate character in a string
 5. Permutations of string
 6. Find vowels in the string
+7. Find smallest and largest element in array
