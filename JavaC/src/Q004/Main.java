@@ -1,14 +1,17 @@
 package Q004;
 
+
 public class Main {
     public static void main(String[] args) {
         String string = "happy";
 
-        char duplicate = findDuplicate(string);
+        //char duplicate = findDuplicateOne(string);
+        //System.out.println(duplicate);
+        char duplicate = findDuplicateTwo(string);
         System.out.println(duplicate);
     }
 
-    public static char findDuplicate(String string) {
+    public static char findDuplicateOne(String string) {
         char duplicate = '0';
         for (int i = 0; i < string.length(); i++) {
             for (int j = i + 1; j < string.length(); j++) {
@@ -18,6 +21,12 @@ public class Main {
                 }
             }
         }
+        return duplicate;
+    }
+
+    public static char findDuplicateTwo(String string) {
+        char duplicate = '0';
+
         return duplicate;
     }
 }
